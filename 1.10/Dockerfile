@@ -1,4 +1,4 @@
-FROM leanersoft/generic-aarch64-debian-erlang-otp:buster-21
+FROM leanersoft/generic-aarch64-debian-erlang-otp:buster-21-build
 
 # elixir expects utf8.
 ENV ELIXIR_VERSION="v1.10.2" \
